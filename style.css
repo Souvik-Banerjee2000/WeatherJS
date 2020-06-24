@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+
+ }
+::placeholder{
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+    max-height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+input{
+    margin-left: 20px;;
+}
+.alert-danger{
+    background-color:#DC3545;
+    margin: 0 auto;
+    color:#fff;
+    text-align: center;
+    width: 100vh;
+}
+.alert-success{
+    background-color:rgb(9, 145, 224);
+    margin: 0 auto;
+    color:#fff;
+    text-align: center;
+    width: 100vh;
+}
+
+@media (min-width:160px) and (max-width:677px){
+    .ml{
+        margin-left: 135px;;
+    }
+}
+@media (min-width:678px) and (max-width:713px){
+    .ml{
+        margin-left:300px;
+    }
+}
+@media (min-width:714px) and (max-width:939px){
+    .ml{
+        margin-left:400px;
+    }
+}
+@media (min-width:940px){
+    .ml{
+        margin-left:600px;
+    }
+}
