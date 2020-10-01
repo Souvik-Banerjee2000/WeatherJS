@@ -74,11 +74,14 @@ class UI {
             let val = item.toLowerCase().indexOf(text); // The index of the text will be -1 if it does not contain the item thats when we want to display it none
             if (text === "") {
                 val = -1; //If the text is blank we want display all the elements :)=> Suppose someone hits L and then deletes it thats when it will be triggered
-            }
-            if (val != -1) {
-                cardsContent[index].style.display = 'none';
-            } else {
                 cardsContent[index].style.display = 'block';
+            }
+            else{
+                if (val != -1) {
+                    cardsContent[index].style.display = 'block';
+                } else {
+                    cardsContent[index].style.display = 'none';
+                }
             }
         });
     }

@@ -15,7 +15,8 @@
     margin: 0 auto;
 }
 input{
-    margin-left: 20px;;
+    margin-left: 20px;
+    /* width:700px; */
 }
 .alert-danger{
     background-color:#DC3545;
@@ -31,24 +32,14 @@ input{
     text-align: center;
     width: 100vh;
 }
+#add-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
 
-@media (min-width:160px) and (max-width:677px){
-    .ml{
-        margin-left: 135px;;
-    }
-}
-@media (min-width:678px) and (max-width:713px){
-    .ml{
-        margin-left:300px;
-    }
-}
-@media (min-width:714px) and (max-width:939px){
-    .ml{
-        margin-left:400px;
-    }
-}
-@media (min-width:940px){
-    .ml{
-        margin-left:600px;
-    }
-}
